@@ -4,6 +4,7 @@ def using_include(array, element)
   element2 = "wow"
    if array.include?(element2)
    else
+     return false
    end
 end
 
